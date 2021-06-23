@@ -1,3 +1,15 @@
+html, body{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: Lato, helvetica, arial, sans-serif;
+	background-color: #f3f3f3;
+	padding-top: 30px;
+}
+
+h1, h2{
+	font-family: rokkit, helvetica, arial, sans-serif;
+}
+
 .clear {
 	clear: both;
 }
@@ -10,6 +22,7 @@
 
 #name {
 	float: left;
+	padding-left: 20px;
 }
 
 #contactDetails {
@@ -24,4 +37,55 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+/* Informações sobre a pessoa */
+
+.mainDetails {
+	border-bottom: 2px solid #cf8a05;
+	padding-bottom: 30px;
+}
+
+img{
+	border-radius: 100px;
+}
+
+#contactDetails ul{
+	list-style: none;
+}
+
+#contactDetails ul li a{
+	text-decoration: none;
+	color: #181818;
+}
+
+.sectionTitle{
+	color: #cf8a05;
+}
+
+.nome{
+	margin-bottom: 0px;
+}
+.subnome{
+	margin-top: 10px;
+}
+
+/*		MAIN	 */
+
+#mainArea{
+	color: #444444;
+}
+
+section{
+	border-bottom: 1px solid #dedede;
+}
+
+h2{
+	color: #181818;
+
+}
+
+.keySkills{
+	list-style: none;
+	column-count: 3;
 }
