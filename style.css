@@ -1,13 +1,15 @@
 html, body{
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: Lato, helvetica, arial, sans-serif;
+	font-family: lato, helvetica, arial, sans-serif;
 	background-color: #f3f3f3;
 	padding-top: 30px;
+	color: black;
 }
 
 h1, h2{
 	font-family: rokkit, helvetica, arial, sans-serif;
+	color: #444444;
 }
 
 .clear {
@@ -59,7 +61,7 @@ img{
 	color: #181818;
 }
 
-.sectionTitle{
+.sectionTitle h1, h2{
 	color: #cf8a05;
 }
 
@@ -81,7 +83,7 @@ section{
 }
 
 h2{
-	color: #181818;
+	color: #444444;
 
 }
 
@@ -90,3 +92,6 @@ h2{
 	column-count: 3;
 }
 
+.subDetails{
+	font-style: italic;
+}
